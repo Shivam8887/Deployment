@@ -1,4 +1,4 @@
-const host = 'http://localhost:3000'
+const host = 'https://deployment-ucbx.onrender.com'
 export const allpost = `${host}/allpost`;
 export const comment = `${host}/comment`
 // fdkdfskds
