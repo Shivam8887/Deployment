@@ -9,7 +9,7 @@ const port = process.env.PORT || 4000;
 
 // Middleware
 app.use(cors({
-    origin: "https://blogs-app-frontend-5kix.onrender.com", 
+    origin: "http://localhost:5173", 
     credentials: true, // Allows cookies to be sent & stored
 }));
 app.use(express.json());

@@ -1,4 +1,4 @@
-const host = 'https://blogs-app-63la.onrender.com'
+const host = 'http://localhost:3000'
 export const login = `${host}/login`;
 export const signup = `${host}/signup`;
 export const blogs = `${host}/blogs`;
