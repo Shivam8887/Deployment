@@ -1,4 +1,4 @@
-const host = 'http://localhost:3000'
+const host = 'https://deployment-ucbx.onrender.com'
 export const login = `${host}/login`;
 export const signup = `${host}/signup`;
 export const blogs = `${host}/blogs`;
