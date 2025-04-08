@@ -9,8 +9,8 @@ const port = process.env.PORT || 4000;
 
 // Middleware
 app.use(cors({
-    origin: "http://localhost:5173", 
-    credentials: true, // Allows cookies to be sent & stored
+    origin: ["http://localhost:5173", "https://deployment-f-kz0t.onrender.com"],
+    credentials: true // Allows cookies to be sent & stored
 }));
 app.use(express.json());
 app.use(cookieParser());
